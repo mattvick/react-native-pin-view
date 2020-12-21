@@ -27,6 +27,7 @@ class PinView extends React.Component {
       {
         toValue: status ? 1 : 0, // Animate to final value of 1
         duration: 100,
+        useNativeDriver: true,
       },
     ).start(); // Start the animation
     this.setState({
