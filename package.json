@@ -30,6 +30,9 @@
     }
   ],
   "license": "MIT",
+  "publishConfig": {
+    "regisrty": "https://npm.pkg.github.com/"
+  },
   "bugs": {
     "url": "https://github.com/mattvick/react-native-pin-view/issues"
   },
